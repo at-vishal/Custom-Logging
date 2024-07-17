@@ -1,0 +1,56 @@
+[2024-07-16 17:27:09.506]  [31merror[39m:  An error occurred  Error: Details here 
+[2024-07-16 17:27:09.655]  [31merror[39m:  An error occurred  Error: Details here 
+[2024-07-16 17:45:55.349] ExampleService [31merror[39m:  Handling error   
+[2024-07-16 17:46:15.553] ExampleService [31merror[39m:  Handling error   
+[2024-07-16 17:46:30.345] ExampleService [31merror[39m:  Handling error   
+[2024-07-16 17:46:45.537] ExampleService [31merror[39m:  Handling error   
+[2024-07-16 17:50:31.414] ExampleService [31merror[39m:  Handling error   
+[2024-07-16 17:52:10.998] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 09:51:05.125] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 09:54:26.882] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 10:09:39.600] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 10:09:57.555] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 10:10:05.126] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 10:10:05.641] ExampleService [31merror[39m:  Handling error   
+[2024-07-17 15:39:50.482] ExampleService [31merror[39m:  Error in riskyOperation: Operation failed Error: Operation failed
+    at ExampleService.riskyOperation (webpack-internal:///(rsc)/./src/services/exampleService.ts:37:19)
+    at descriptor.value (webpack-internal:///(rsc)/./src/utils/logger.ts:66:53)
+    at Home (webpack-internal:///(rsc)/./src/app/page.tsx:18:13)
+    at e_ (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:264092)
+    at e (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268224)
+    at eF (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268712)
+    at eq (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:274676)
+    at ej (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:264920)
+    at e_ (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:263962)
+    at e (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268224)
+    at eF (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268712)
+    at C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:265943
+    at Array.toJSON (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:266407)
+    at stringify (<anonymous>)
+    at eq (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:274775)
+    at eJ (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:275293)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:283288)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)  
+[2024-07-17 15:46:11.670] ExampleService [31merror[39m:  Error in riskyOperation: Operation failed Error: Operation failed
+    at ExampleService.riskyOperation (webpack-internal:///(rsc)/./src/services/exampleService.ts:39:19)
+    at descriptor.value (webpack-internal:///(rsc)/./src/utils/logger.ts:66:53)
+    at Home (webpack-internal:///(rsc)/./src/app/page.tsx:18:13)
+    at e_ (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:264092)
+    at e (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268224)
+    at eF (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268712)
+    at eq (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:274676)
+    at ej (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:264920)
+    at e_ (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:263962)
+    at e (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268224)
+    at eF (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:268712)
+    at C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:265943
+    at Array.toJSON (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:266407)
+    at stringify (<anonymous>)
+    at eq (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:274775)
+    at eJ (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:275293)
+    at AsyncLocalStorage.run (node:async_hooks:346:14)
+    at Timeout._onTimeout (C:\Users\admin\Desktop\New folder (2)\loggersample\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:283288)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)  

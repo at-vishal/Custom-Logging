@@ -1,0 +1,6 @@
+{
+  "logLevel": "debug",
+  "logDir": "logs",
+  "errorLogDir": "logs/error",
+  "env": "development"
+}
